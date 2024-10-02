@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Downtown Barbearia</title>
+</head>
+<body>
+    <header>
+        <h1>Downtown Barbearia</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="produtos">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Imagem</th>
+                        <th>Corte</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="cabelo.png" alt="Smartphone" /></td>
+                        <td>cabelo</td>
+                        <td>R$ 30</td>
+                    </tr>
+                    <tr>
+                        <td><img src="barba.jpg" alt="Notebook" /></td>
+                        <td>barba</td>
+                        <td>R$ 25</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images.jpeg" alt="Tablet" /></td>
+                        <td>cabelo e barba</td>
+                        <td>R$ 50</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="contato">
+            <h2>Entre em Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Na Downtown Barbearia, unimos tradição e estilo para oferecer cortes personalizados e uma experiência única em um ambiente acolhedor.</p>
+        <p>© 2024 Downtown Barbearia</p>
+    </footer>
+</body>
+</html>
